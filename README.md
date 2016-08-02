@@ -1,1 +1,1 @@
-# InputEmailTest
+# InputTypeTest
