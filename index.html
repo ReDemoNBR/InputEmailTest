@@ -1,6 +1,11 @@
-Insert email: <input type="email" id="Email"/> <input type="button" value="Send" onclick="FooBar()" />
+Input Email: <input type="email" id="Email" /> <input type="button" value="Send" onclick="TestInputEmail()" />
+Input Text: <input type="text" id="Text" /> <input type="button" value="Send" onclick="TestInputText()" />
 <script>
-function FooBar(){
+function TestInputEmail(){
   alert(document.getElementById("Email").value);
+}
+
+function TestInputText(){
+  alert(document.getElementById("Text").value);
 }
 </script>
