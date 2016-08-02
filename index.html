@@ -64,18 +64,9 @@
     <td><input type="file" /></td>
     <td><input type="button" value="Send" onclick="Alert(event)" /></td>
   </tr>
-  <tr>
-    <td>Input Image:</td>
-    <td colspan="2"><input type="image" src="http://st.depositphotos.com/1023799/2906/v/950/depositphotos_29066941-Grunge-example-rubber-stamp-vector.jpg" onclick="Image(this, event)" style="width:200px; height:auto;" /></td>
-  </tr>
 </table>
 <script>
 function Alert(e){
   alert(e.target.parentElement.parentElement.getElementsByTagName("input")[0].value);
-}
-
-function Image(Element, e){
-  console.log(Element.value);
-  console.log(e);
 }
 </script>
